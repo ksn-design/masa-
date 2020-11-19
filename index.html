@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>会社概要</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header-left">
+          <div class="name">
+            <div class="drawing"></div>
+            <div class="drawing2"> </div>
+            <h2>MASA's Service</h2>
+          </div>
+        </div>
+        <div class="header-right">
+          <button class="btn-menu">メニュー</button>
+          <nav>
+          <ul>
+            <li><a href="https://ksn-design.github.io/masa.san/">ホーム</a></li>
+            <li><a href="">SNS</a></li>
+            <li><a href="TEL:090-1272-6832">お問い合わせ</a></li>
+          </ul>
+        </nav>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <div class="company-overview">
+      <div class="company-wrapper">
+        <div class="container">
+          <h1 class="title">会社概要</h1>
+          <h2>見やすく、使いやすいwebサイトを制作</h2>
+          <p>徹底したヒアリングからお客様のニーズをキャッチしさらにPlusOneのアイディア提供を行っていきます。
+            PC・スマートフォン・タブレットといったマルチデバイスのデザインはもちろん、HTML5やJavaScriptを利用した動きのあるサイトのコーディングまで対応可能です。</p>
+        </div>
+      </div>
+      <div class="detail-wrapper">
+        <div class="container">
+          <h3 class="details">会社概要</h3>
+          <ul class="contents">
+            <li>
+              <dl class="company-name">
+              <dt>社名</dt>
+              <dd>KSN-design</dd>
+              <dt>本社</dt>
+              <dd>沖縄県名護市</dd>
+              <dt>代表者</dt>
+              <dd>代表取締役 社長執行役員　末松 己信</dd>
+              <dt>設立</dt>
+              <dd>2020年(令和２年) ７月５日</dd>
+              <dt>資本金</dt>
+              <dd>-万円(2020 7月５日現在)</dd>
+              <dt>売上高</dt>
+              <dd>-万(2020年９月期)</dd>
+              <dt>従業員数</dt>
+              <dd>-名</dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <script>
+    'use strict';
+
+    const btn= document.querySelector('.btn-menu');
+    const nav= document.querySelector('nav');
+
+    btn.addEventListener('click',()=>{
+      nav.classList.toggle('open-menu')
+    });
+
+    </script>
+  </body>
+</html>
